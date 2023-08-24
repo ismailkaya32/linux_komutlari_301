@@ -111,6 +111,8 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  </div>
 
 - ---
+
+# kill -9 ve kill -15 kullanımı:
  
 - kill -9 komutu açık olan programı çok hızlı yani ani bir şekilde kapatır. (İstenmeyen veri kaybına sebebiyet verebilir.)
   
@@ -125,6 +127,9 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  </div>
 
 - ---
+
+# & kullanımı:
+
 - & komutu ile terminalden arka planda uygulama çalıştırabiliriz. Ama terminalde işlem yapamayız. 
 
 Örnek: Terminalden firefox uygulamasını arka planda çalıştırabiliyoruz. Ama terminalde işlem yapamıyoruz.
@@ -133,6 +138,9 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/cf7a0ffa-0fc6-43d2-bae9-75fe083ea8a9"/>
  </div>
 - ---
+
+# nohup ve & kullanımı:
+
 - nohup ve & komutları ile bir uygulamayı hem arka planda çalıştırı hem de terminalde rahatça gezebiliyoruz.
 
 Örnek: Terminalden firefox uygulamasını hem arka planda çalıştırıp hem de terminalde rahatça hareket edebiliyoruz.
@@ -140,8 +148,24 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
    <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/67186389-9b02-45eb-a794-eb79569b1f3d"/>
  </div>
+- ---
 
- 
+# ctrl+z ve bg kullanımı:
+
+- Terminalden gedit uygulamasını açtıktan sonra terminalde ctrl+z komutu ile terminalden gedit uygulamasını kapattığımız zaman arka planda gedit uygulaması çalışmıyor. Bundan dolayı gedit uygulamasının çalışması için bg komutunu kullanıyoruz.
+
+1) Terminalden gedit uygulamasının ctrl+z ile arka planda kapandığını görüyoruz.
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/6d21da41-860d-4086-8d12-aa397b45d694"/>
+ </div>
+
+2) Terminalden gedit uygulamasının ctrl+z ile arka planda kapandığını görüyorduk. Bundan sonra bg komutunu uyguluyoruz. Ve artık hem terminali rahatça kullanabiliyoruz hem de gedit uygulaması arka planda çalıştırabiliyoruz.
+   
+  <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/ac9db0de-5bc2-4231-891e-312cdd6cdaf9"/>
+ </div>
+
 
 
 
