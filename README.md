@@ -13,7 +13,6 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/fcf5bfc3-c0f1-414e-bb9e-18ba4c2d9195"/>
 </div>
 
-- ---
 ---
 
 <div align="center">
@@ -22,7 +21,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 
 - ---
 
-# ps komutu: 
+### ps komutu: 
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/c8e07aa1-122e-413a-b23e-b0cfea870cab"/>
  </div>
@@ -51,7 +50,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/0069cb47-b2a3-4c15-9c33-2a8301cc9ac2"/>
  </div>
 - ---
-# htop nedir?
+### htop nedir?
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/cdaf0628-4276-4dca-bd07-e3dc267b63f7"/>
  </div>
@@ -63,7 +62,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 
 - ---
 - ---
-# kill komıutu nedir?
+### kill komıutu nedir?
 
 - Süreçleri sonlandırmamızı sağlar.
 - Bir süreci sonlandırmak için kill komutundan sonra istediğimiz uygulamayı kapatmak için istediğimiz uygulamanın PID kodunu yazıyoruz.
@@ -82,9 +81,11 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  </div>
 
 - ---
+
+
 !!! Bir uygulamayı sonlandırmak istediğimiz zaman grep komutu ile kısa yoldan o uygulamayı bulmak isteriz. grep komutu ile uygulamanın ismini arattığımızda iki tane satır çıkarsa bunlaradn biri kapatılır. Bunlardan bir tanesi sonlandıracağımız PID'ye sahip iken diğeri sabit PID'ye sahiptir. Genellikle sonlandıracağımız uygulamanın son kısımlarında application yazmaktadır. Ama eğer ikiden fazla satır geliyorsa tüm satırı kapatmamız gerekir.
 
-Örnek: İki satır olan örneğimiz
+Örnek: Aşağıdaki örnekte iki satır olan örneğimizi göreceğiz.
 
 - Sol tarafta gedit uygulamasının çalıştğını görüyoruz.
  <div align="center">
@@ -98,7 +99,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  </div>
 
  - ---
-Örnek: İki satırdan fazla olan örneğimiz
+Örnek: Aşağıdaki örnekte iki satırdan fazla olan örneğimizi görüyoruz.
 
 - Sol tarafta firefox uygulamasının çalıştğını görüyoruz.
 
@@ -115,7 +116,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 
 - ---
 
-# kill -9 ve kill -15 kullanımı:
+### kill -9 ve kill -15 kullanımı:
  
 - kill -9 komutu açık olan programı çok hızlı yani ani bir şekilde kapatır. (İstenmeyen veri kaybına sebebiyet verebilir.)
   
@@ -131,7 +132,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 
 - ---
 
-# & kullanımı:
+### & kullanımı:
 
 - & komutu ile terminalden arka planda uygulama çalıştırabiliriz. Ama terminalde işlem yapamayız. 
 
@@ -142,18 +143,19 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  </div>
 - ---
 
-# nohup ve & kullanımı:
+### nohup ve & kullanımı:
 
-- nohup ve & komutları ile bir uygulamayı hem arka planda çalıştırı hem de terminalde rahatça gezebiliyoruz.
+- nohup ve & komutları ile bir uygulamayı hem arka planda çalıştırır hem de terminalde rahatça gezebiliriz.
 
 Örnek: Terminalden firefox uygulamasını hem arka planda çalıştırıp hem de terminalde rahatça hareket edebiliyoruz.
 
    <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/67186389-9b02-45eb-a794-eb79569b1f3d"/>
  </div>
+ 
 - ---
 
-# ctrl+z ve bg kullanımı:
+### ctrl+z ve bg kullanımı:
 
 - Terminalden gedit uygulamasını açtıktan sonra terminalde ctrl+z komutu ile terminalden gedit uygulamasını kapattığımız zaman arka planda gedit uygulaması çalışmıyor. Bundan dolayı gedit uygulamasının çalışması için bg komutunu kullanıyoruz.
 
