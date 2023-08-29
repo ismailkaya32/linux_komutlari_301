@@ -13,7 +13,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/fcf5bfc3-c0f1-414e-bb9e-18ba4c2d9195"/>
 </div>
 
----
+- ---
 
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/ecc61e7f-7c27-4f56-b492-e382ac812e9a"/>
@@ -27,7 +27,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/c8e07aa1-122e-413a-b23e-b0cfea870cab"/>
  </div>
 
-Örnek: ps -ef komuyu ile hangi komutun (sürecin) çalıştığını görme
+Örnek: Aşağıdaki örnekte ps -ef komutu ile hangi komutun (sürecin) çalıştığını görüyoruz.
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/53cefe7d-13a6-432e-bca7-5a203e0ce170"/>
@@ -35,7 +35,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  
 - ---
 
-Örnek: Sadece ismailkaya'ya ait süreçleri ekrana getirme
+Örnek: Aşağıdaki örnekte sadece ismailkaya'ya ait süreçleri ekrana getirme işlemini görüyoruz.
 
 - a kelimesi --> Tüm processleri (süreci) listelesin
 - u kelimesi --> Vereceğimiz user (kullanıcı) hakkında bilgileri getirme
@@ -46,7 +46,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 
 - ---
 
-Örnek: Sadece root'a ait süreçleri ekrana getirme
+Örnek: Aşağıdaki örnekte sadece root'a ait süreçleri ekrana getirme işlemini görüyoruz.
 
 - a kelimesi --> Tüm processleri (süreci) listelesin
 - u kelimesi --> Vereceğimiz user (kullanıcı) hakkında bilgileri getirme
@@ -58,6 +58,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 - ---
 
 ### htop nedir?
+
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/cdaf0628-4276-4dca-bd07-e3dc267b63f7"/>
  </div>
@@ -74,7 +75,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 - Süreçleri sonlandırmamızı sağlar.
 - Bir süreci sonlandırmak için kill komutundan sonra istediğimiz uygulamayı kapatmak için istediğimiz uygulamanın PID kodunu yazıyoruz.
 
-Örnek: gedit uygulamasını sonlandırma
+Örnek: Aşağıdaki örnekte gedit uygulamasını sonlandırma işlemini görüyoruz.
 
 - Sol tarafta gedit uygulamasının çalıştğını görüyoruz.
  <div align="center">
@@ -143,18 +144,19 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 
 - & komutu ile terminalden arka planda uygulama çalıştırabiliriz. Ama terminalde işlem yapamayız. 
 
-Örnek: Terminalden firefox uygulamasını arka planda çalıştırabiliyoruz. Ama terminalde işlem yapamıyoruz.
+Örnek: Aşağıdaki örnekte terminalden firefox uygulamasını arka planda çalıştırabiliyoruz. Ama terminalde işlem yapamıyoruz.
 
   <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/cf7a0ffa-0fc6-43d2-bae9-75fe083ea8a9"/>
  </div>
+ 
 - ---
 
 ### nohup ve & kullanımı:
 
 - nohup ve & komutları ile bir uygulamayı hem arka planda çalıştırır hem de terminalde rahatça gezebiliriz.
 
-Örnek: Terminalden firefox uygulamasını hem arka planda çalıştırıp hem de terminalde rahatça hareket edebiliyoruz.
+Örnek: Aşağıdaki örnekte terminalden firefox uygulamasını hem arka planda çalıştırıp hem de terminalde rahatça hareket edebiliyoruz.
 
    <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/67186389-9b02-45eb-a794-eb79569b1f3d"/>
@@ -162,23 +164,108 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  
 - ---
 
-### ctrl+z ve bg kullanımı:
+### ctrl+z , bg ve disown kullanımı:
 
-- Terminalden gedit uygulamasını açtıktan sonra terminalde ctrl+z komutu ile terminalden gedit uygulamasını kapattığımız zaman arka planda gedit uygulaması çalışmıyor. Bundan dolayı gedit uygulamasının çalışması için bg komutunu kullanıyoruz.
+- ctrl+z kısayolu, işlemi arka plana almamızı sağlar.
+- bg komutu, arka planda çalışan işleri görmemizi sağlar.
+- disown komutu, terminali kapattıktan sonra uygulamanın devam etmesini sağlar.
 
-1) Terminalden gedit uygulamasının ctrl+z ile arka planda kapandığını görüyoruz.
+- ---
+
+1) Aşağıdaki görselde terminalden ctrl+z komutu ile gedit uygulamasını arka plana alıyoruz. Ama hem gedit uygulaması hata veriyor hem de terminalde işlem yapamıyoruz.
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/6d21da41-860d-4086-8d12-aa397b45d694"/>
  </div>
 
-2) Terminalden gedit uygulamasının ctrl+z ile arka planda kapandığını görüyorduk. Bundan sonra bg komutunu uyguluyoruz. Ve artık hem terminali rahatça kullanabiliyoruz hem de gedit uygulaması arka planda çalıştırabiliyoruz.
+- ---
+
+2) Az önce hem gedit uygulamasın hata verdiğini hem de terminalde işlem yapamadığımızı görüyorduk. Bundan dolayı sonra bg komutunu uyguluyoruz. Ve gedit uygulamasının hata vermesi düzeliyor ama bu sefer yine terminalde hareket edemiyoruz.
    
   <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/ac9db0de-5bc2-4231-891e-312cdd6cdaf9"/>
  </div>
 
+ - ---
 
+3) Az önce bg komutu ile gedit uygulamasının hata vermesinin düzeldiğini ama bu sefer terminalde hareket edemediğimizi gördük. Bundan dolayı sonra disown komutunu kullanıp gedit uygulamasının terminalden bağını kesiyoruz. Ve hem terminalde rahatça hareket edebiliyoruz hem de gedit uygulaması arka planda güzelce çalışıyor. Artık terminali kapatsak dahi gedit uygulaması çalışmaya devam edecek.
 
+- ---
+
+### Servis Kavramı: 
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/0b4c6ed5-a411-49ff-8536-c636aaba7c08"/>
+ </div>
+
+- ---
+ 
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/e3bfe5ba-d5c6-41cb-b012-e89bf3d91292"/>
+ </div>
+
+- ---
+
+### systemctl programı:
+
+- Linux'ta sistem üzerindeki servisleri yönetmemizi sağlar.
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/1b8afeb1-6ba3-4a94-a27e-ac4432b6e3cb"/>
+ </div>
+
+- ---
+
+- list-units --type service komutu sistem üzerindeki servis ünitelerini görüntülemizi sağlar.
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/cd269ac8-5b0e-4dd1-ad37-b3fbd4995971"/>
+ </div>
+
+- ---
+
+- list-units --type service --state runnig komutu sistem üzerindeki yalnızca o an çalışan servis ünitelerini görüntülememizi sağlar.
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/9fc44a1e-d407-448e-b15a-73f1723164a3"/>
+ </div>
+
+- ---
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/66d0558c-e565-4317-8245-efd4fa975105"/>
+ </div>
+
+- ---
+
+- Örnek: Aşağıdaki örnekte bir program veya uygulama hakkında bilgi almak için systemctl status komutunu kullandığımızı görüyoruz.
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/d719c796-c17a-4837-80fb-a13a66fd217b"/>
+ </div>
+
+- ---
+
+Örnek: Aşağıdaki örnekte sudo systemctl stop komutu ile bir uygulamayı veya programı sonlandırabiliyoruz. Ama bu işlemi her daim yönetici olarak yani root olarak yapabiliriz.
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/472c2fd7-6951-4de5-9951-6ca096770670"/>
+ </div>
+
+- ---
+
+Örnek: Aşağıdaki örnekte sudo systemctl start komutu ile bir uygulamayı veya programı başlatabiliyoruz. Ama bu işlemi her daim yönetici olarak yani root olarak yapabiliriz.
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/46be7c80-6e9b-4e9c-8943-78a5ee49d8e6"/>
+ </div>
+
+- ---
+
+Örnek: Aşağıdaki örnekte sudo systemctl restart komutu ile bir uygulamayı veya programı yeniden başlatabiliyoruz. Ama bu işlemi her daim yönetici olarak yani root olarak yapabiliriz.
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/7c75389d-c26e-496b-b8a2-b47ecee39b3f"/>
+ </div>![42]()
 
  
