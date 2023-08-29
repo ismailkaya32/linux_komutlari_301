@@ -14,6 +14,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 </div>
 
 - ---
+---
 
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/ecc61e7f-7c27-4f56-b492-e382ac812e9a"/>
