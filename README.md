@@ -96,6 +96,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 Örnek: Aşağıdaki örnekte iki satır olan örneğimizi göreceğiz.
 
 - Sol tarafta gedit uygulamasının çalıştğını görüyoruz.
+
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/73bff42b-7eed-4d9c-94b1-91040b678763"/>
  </div>
@@ -107,6 +108,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  </div>
 
  - ---
+
 Örnek: Aşağıdaki örnekte iki satırdan fazla olan örneğimizi görüyoruz.
 
 - Sol tarafta firefox uygulamasının çalıştğını görüyoruz.
@@ -114,7 +116,6 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/f452e229-9711-4b73-b8c7-855a6c4f3425"/>
  </div>
-
 
 - pkill firefox komutunu yazınca firefox uygulamasının kapandığını görüyoruz. Burada tüm firefox içeren süreci kapatmış oluyoruz. Buradan hem PID kodu bilmeden direkt isimden öldürme işlemini yapabildiğimiz görmüş olduk. Bunu iki satırlı örneklerde de kullanabiliriz.
 
