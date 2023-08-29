@@ -170,7 +170,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 - bg komutu, arka planda çalışan işleri görmemizi sağlar.
 - disown komutu, terminali kapattıktan sonra uygulamanın devam etmesini sağlar.
 
-- ---
+
 
 1) Aşağıdaki görselde terminalden ctrl+z komutu ile gedit uygulamasını arka plana alıyoruz. Ama hem gedit uygulaması hata veriyor hem de terminalde işlem yapamıyoruz.
 
@@ -178,7 +178,6 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/6d21da41-860d-4086-8d12-aa397b45d694"/>
  </div>
 
-- ---
 
 2) Az önce hem gedit uygulamasın hata verdiğini hem de terminalde işlem yapamadığımızı görüyorduk. Bundan dolayı sonra bg komutunu uyguluyoruz. Ve gedit uygulamasının hata vermesi düzeliyor ama bu sefer yine terminalde hareket edemiyoruz.
    
@@ -186,7 +185,6 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/ac9db0de-5bc2-4231-891e-312cdd6cdaf9"/>
  </div>
 
- - ---
 
 3) Az önce bg komutu ile gedit uygulamasının hata vermesinin düzeldiğini ama bu sefer terminalde hareket edemediğimizi gördük. Bundan dolayı sonra disown komutunu kullanıp gedit uygulamasının terminalden bağını kesiyoruz. Ve hem terminalde rahatça hareket edebiliyoruz hem de gedit uygulaması arka planda güzelce çalışıyor. Artık terminali kapatsak dahi gedit uygulaması çalışmaya devam edecek.
 
@@ -262,10 +260,11 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 
 - ---
 
+
 Örnek: Aşağıdaki örnekte sudo systemctl restart komutu ile bir uygulamayı veya programı yeniden başlatabiliyoruz. Ama bu işlemi her daim yönetici olarak yani root olarak yapabiliriz.
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/7c75389d-c26e-496b-b8a2-b47ecee39b3f"/>
- </div>![42]()
+ </div>
 
  
