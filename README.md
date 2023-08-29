@@ -22,15 +22,19 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 - ---
 
 ### ps komutu: 
+
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/c8e07aa1-122e-413a-b23e-b0cfea870cab"/>
  </div>
 
 Örnek: ps -ef komuyu ile hangi komutun (sürecin) çalıştığını görme
+
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/53cefe7d-13a6-432e-bca7-5a203e0ce170"/>
  </div>
+ 
 - ---
+
 Örnek: Sadece ismailkaya'ya ait süreçleri ekrana getirme
 
 - a kelimesi --> Tüm processleri (süreci) listelesin
@@ -41,6 +45,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  </div>
 
 - ---
+
 Örnek: Sadece root'a ait süreçleri ekrana getirme
 
 - a kelimesi --> Tüm processleri (süreci) listelesin
@@ -49,7 +54,9 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/0069cb47-b2a3-4c15-9c33-2a8301cc9ac2"/>
  </div>
+ 
 - ---
+
 ### htop nedir?
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/cdaf0628-4276-4dca-bd07-e3dc267b63f7"/>
@@ -61,7 +68,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  </div>
 
 - ---
-- ---
+
 ### kill komıutu nedir?
 
 - Süreçleri sonlandırmamızı sağlar.
