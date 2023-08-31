@@ -13,7 +13,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/fcf5bfc3-c0f1-414e-bb9e-18ba4c2d9195"/>
 </div>
 
-- ---
+ <br/>
 
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/ecc61e7f-7c27-4f56-b492-e382ac812e9a"/>
@@ -26,6 +26,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/c8e07aa1-122e-413a-b23e-b0cfea870cab"/>
  </div>
+ <br/>
 
 Örnek: Aşağıdaki örnekte ps -ef komutu ile hangi komutun (sürecin) çalıştığını görüyoruz.
 
@@ -70,17 +71,21 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 
 - ---
 
-### kill komıutu nedir?
+### kill komutu nedir?
 
 - Süreçleri sonlandırmamızı sağlar.
 - Bir süreci sonlandırmak için kill komutundan sonra istediğimiz uygulamayı kapatmak için istediğimiz uygulamanın PID kodunu yazıyoruz.
 
+ <br/>
+
 Örnek: Aşağıdaki örnekte gedit uygulamasını sonlandırma işlemini görüyoruz.
 
-- Sol tarafta gedit uygulamasının çalıştğını görüyoruz.
+- Sol tarafta gedit uygulamasının çalıştığını görüyoruz.
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/6bc5151a-b837-4bf4-a20d-9f9cde35c20eb"/>
  </div>
+ 
+ <br/>
 
 - kill 5070(gedit PID kodu) komutunu yazınca gedit uygulamasının kapandığını görüyoruz.
 
@@ -116,6 +121,8 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/f452e229-9711-4b73-b8c7-855a6c4f3425"/>
  </div>
+
+  <br/>
 
 - pkill firefox komutunu yazınca firefox uygulamasının kapandığını görüyoruz. Burada tüm firefox içeren süreci kapatmış oluyoruz. Buradan hem PID kodu bilmeden direkt isimden öldürme işlemini yapabildiğimiz görmüş olduk. Bunu iki satırlı örneklerde de kullanabiliriz.
 
@@ -171,7 +178,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 - bg komutu, arka planda çalışan işleri görmemizi sağlar.
 - disown komutu, terminali kapattıktan sonra uygulamanın devam etmesini sağlar.
 
-
+ <br/>
 
 1) Aşağıdaki görselde terminalden ctrl+z komutu ile gedit uygulamasını arka plana alıyoruz. Ama hem gedit uygulaması hata veriyor hem de terminalde işlem yapamıyoruz.
 
@@ -179,6 +186,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/6d21da41-860d-4086-8d12-aa397b45d694"/>
  </div>
 
+ <br/>
 
 2) Az önce hem gedit uygulamasın hata verdiğini hem de terminalde işlem yapamadığımızı görüyorduk. Bundan dolayı sonra bg komutunu uyguluyoruz. Ve gedit uygulamasının hata vermesi düzeliyor ama bu sefer yine terminalde hareket edemiyoruz.
    
@@ -186,6 +194,7 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/ac9db0de-5bc2-4231-891e-312cdd6cdaf9"/>
  </div>
 
+ <br/>
 
 3) Az önce bg komutu ile gedit uygulamasının hata vermesinin düzeldiğini ama bu sefer terminalde hareket edemediğimizi gördük. Bundan dolayı sonra disown komutunu kullanıp gedit uygulamasının terminalden bağını kesiyoruz. Ve hem terminalde rahatça hareket edebiliyoruz hem de gedit uygulaması arka planda güzelce çalışıyor. Artık terminali kapatsak dahi gedit uygulaması çalışmaya devam edecek.
 
