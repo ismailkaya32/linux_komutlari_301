@@ -63,8 +63,10 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/cdaf0628-4276-4dca-bd07-e3dc267b63f7"/>
  </div>
+ 
+  <br/>
 
-- htop nasıl indirilir?
+htop nasıl indirilir?
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/539103d2-77d8-47c7-aa97-36f6c3939a2c"/>
  </div>
