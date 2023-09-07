@@ -67,9 +67,29 @@ Bu süreç(process) kavramını daha iyi anlayabilmek için system monitore giri
   <br/>
 
 htop nasıl indirilir?
+
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/539103d2-77d8-47c7-aa97-36f6c3939a2c"/>
  </div>
+
+<br/>
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/temel_linux_301/assets/122615472/3be91ebe-4803-4ef2-891b-151dcd29926c"/>
+ </div>  
+
+ - Lacivert kutu içine aldığım CPU% kısmı bir uygulamanın ne kadar işlemci harcadığını gösteriyor.
+ - Beyaz kutu içine aldığım MEM% kısmı bir uygulamanın ne kadar hafıza (RAM) kullandığını gösteriyor.
+
+<br/>
+<br/>
+
+- Klavyeden F5 tuşuna baınca süreçleri ağaç konumuna getiriyor. Aşağıdaki görselde kırmızı ok ile gösterilen yerde mavi mavi dallanmaların olduğunu görebilirsiniz.
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/temel_linux_301/assets/122615472/ab9e9e70-dd4b-4409-82d1-46672ca6b481"/>
+ </div>  
+
 
 - ---
 
