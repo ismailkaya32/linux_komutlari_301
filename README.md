@@ -190,7 +190,7 @@ htop nasıl indirilir?
 
  <br/>
 
-2) Az önce hem gedit uygulamasın hata verdiğini hem de terminalde işlem yapamadığımızı görüyorduk. Bundan dolayı sonra bg komutunu uyguluyoruz. Ve gedit uygulamasının hata vermesi düzeliyor ama bu sefer yine terminalde hareket edemiyoruz.
+2) Az önce hem gedit uygulamasın hata verdiğini hem de terminalde işlem yapamadığımızı görüyorduk. Bundan dolayı sonra `bg` komutunu uyguluyoruz. Ve gedit uygulamasının hata vermesi düzeliyor ama bu sefer yine terminalde hareket edemiyoruz.
    
   <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/ac9db0de-5bc2-4231-891e-312cdd6cdaf9"/>
@@ -198,7 +198,19 @@ htop nasıl indirilir?
 
  <br/>
 
-3) Az önce bg komutu ile gedit uygulamasının hata vermesinin düzeldiğini ama bu sefer terminalde hareket edemediğimizi gördük. Bundan dolayı sonra disown komutunu kullanıp gedit uygulamasının terminalden bağını kesiyoruz. Ve hem terminalde rahatça hareket edebiliyoruz hem de gedit uygulaması arka planda güzelce çalışıyor. Artık terminali kapatsak dahi gedit uygulaması çalışmaya devam edecek.
+3) Az önce bg komutu ile gedit uygulamasının hata vermesinin düzeldiğini ama bu sefer terminalde hareket edemediğimizi gördük. Bundan dolayı sonra `disown` komutunu kullanıp gedit uygulamasının terminalden bağını kesiyoruz. Ve hem terminalde rahatça hareket edebiliyoruz hem de gedit uygulaması arka planda güzelce çalışıyor. Artık terminali kapatsak dahi gedit uygulaması çalışmaya devam edecek.
+
+<div align="center">
+	<img src="https://github.com/ismailkaya32/temel_linux_301/assets/122615472/5202e4f4-d2a5-4969-84a8-43fff53da849"/>
+ </div>
+
+<br/>
+
+- Aşağıdaki görselde terminalin kapalı hali ile bile gedit uygulamasının çalıştığını görebiliyoruz.
+
+ <div align="center">
+	<img src="https://github.com/ismailkaya32/temel_linux_301/assets/122615472/c3cc2a9c-91e2-4e35-9ca4-4f135d589a67"/>
+ </div>   
 
 - ---
 
