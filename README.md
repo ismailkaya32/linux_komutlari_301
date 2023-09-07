@@ -226,7 +226,7 @@ htop nasıl indirilir?
 
 - ---
 
-- list-units --type service komutu sistem üzerindeki servis ünitelerini görüntülemizi sağlar.
+- `list-units --type service` komutu sistem üzerindeki servis ünitelerini görüntülemizi sağlar.
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/cd269ac8-5b0e-4dd1-ad37-b3fbd4995971"/>
@@ -234,13 +234,13 @@ htop nasıl indirilir?
 
 - ---
 
-- list-units --type service --state runnig komutu sistem üzerindeki yalnızca o an çalışan servis ünitelerini görüntülememizi sağlar.
+- `list-units --type service --state runnig` komutu sistem üzerindeki yalnızca o an çalışan servis ünitelerini görüntülememizi sağlar.
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/9fc44a1e-d407-448e-b15a-73f1723164a3"/>
  </div>
 
-- ---
+<br/>
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/66d0558c-e565-4317-8245-efd4fa975105"/>
@@ -248,7 +248,7 @@ htop nasıl indirilir?
 
 - ---
 
-- Örnek: Aşağıdaki örnekte bir program veya uygulama hakkında bilgi almak için systemctl status komutunu kullandığımızı görüyoruz.
+- Örnek: Aşağıdaki örnekte bir program veya uygulama hakkında bilgi almak için `systemctl status program_adi` komutunu kullandığımızı görüyoruz.
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/d719c796-c17a-4837-80fb-a13a66fd217b"/>
@@ -256,7 +256,7 @@ htop nasıl indirilir?
 
 - ---
 
-Örnek: Aşağıdaki örnekte sudo systemctl stop komutu ile bir uygulamayı veya programı sonlandırabiliyoruz. Ama bu işlemi her daim yönetici olarak yani root olarak yapabiliriz.
+Örnek: Aşağıdaki örnekte `sudo systemctl stop uygulama_adi` komutu ile bir uygulamayı veya programı sonlandırabiliyoruz. Ama bu işlemi her daim yönetici olarak yani root olarak yapabiliriz.
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/472c2fd7-6951-4de5-9951-6ca096770670"/>
@@ -264,7 +264,7 @@ htop nasıl indirilir?
 
 - ---
 
-Örnek: Aşağıdaki örnekte sudo systemctl start komutu ile bir uygulamayı veya programı başlatabiliyoruz. Ama bu işlemi her daim yönetici olarak yani root olarak yapabiliriz.
+Örnek: Aşağıdaki örnekte `sudo systemctl start uygulama_adi` komutu ile bir uygulamayı veya programı başlatabiliyoruz. Ama bu işlemi her daim yönetici olarak yani root olarak yapabiliriz.
 
  <div align="center">
 	<img src="https://github.com/ismailkaya32/linux_komutlari_301/assets/122615472/46be7c80-6e9b-4e9c-8943-78a5ee49d8e6"/>
